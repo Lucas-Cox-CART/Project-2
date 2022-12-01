@@ -1,0 +1,17 @@
+header {
+background-color: black;
+height: 20vh
+}
+
+header > h1 {
+    color:yellow;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.heronav > a {
+display: flex;
+background-color: black;
+
+}

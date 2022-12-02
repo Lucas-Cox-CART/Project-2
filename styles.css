@@ -1,3 +1,8 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
 header {
 background-color: black;
 height: 20vh
@@ -10,8 +15,98 @@ header > h1 {
     margin-top: 0;
 }
 
+.heronav{
+    width: 100%;
+}
+
 .heronav > a {
 display: flex;
 background-color: black;
+}
 
+.heronav > ul{
+    display: flex;
+    align-items: center;
+}
+.heronav > ul > li{
+    width: 33.33%;
+    height: 5vh;
+}
+
+
+
+
+.title{
+    width:100%;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 40vh;
+    margin-bottom: 10vh;
+}
+.c2{
+    flex-direction: row-reverse;
+}
+.text{
+    width: 40%;
+    background-color: yellow;
+    border: 1px;
+    border-radius: 20px;
+}
+.img{
+    width: 40%;
+}
+
+.cont2{
+    padding: 20px;
+}
+
+
+
+
+/*buttons*/
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.bwrap{
+    width: 100%;
+}
+
+.bwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: black;
+    color: yellow;
+    padding: 2%;
+    border: 1px;
+    border-radius: 20px;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+}
+
+.page-link{
+    width: 50%;
+}
+
+.ref{
+    width: 25%;
+}
+
+.contact{
+    width: 25%;
 }

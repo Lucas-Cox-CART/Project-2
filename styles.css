@@ -1,7 +1,15 @@
 * {
     text-decoration: none;
     list-style: none;
+     margin: 0;
+    padding: 0; 
 }
+
+.ContentCenter {
+    
+}
+
+
 
 header {
 background-color: black;
@@ -33,12 +41,29 @@ background-color: black;
     height: 5vh;
 }
 
-
+main {
+    margin: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: rgb(97, 97, 97);
+}
 
 
 .title{
     width:100%;
 }
+
+.Heroimg {
+   background-image: url("/images/YellowJournalism.PNG");
+   background-repeat: no-repeat;
+   margin: 0%;
+   padding: 0;
+}
+
+.maxheight {
+    height: 100vh;
+}
+
 .content{
     width: 100%;
     display: flex;
@@ -46,7 +71,11 @@ background-color: black;
     justify-content: space-around;
     height: 40vh;
     margin-bottom: 10vh;
+    
 }
+
+
+
 .c2{
     flex-direction: row-reverse;
 }

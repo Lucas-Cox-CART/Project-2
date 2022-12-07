@@ -12,33 +12,53 @@
 
 
 header {
+display: flex;
+justify-content: center;
+flex-direction: column;
 background-color: black;
-height: 20vh
+/* height: 20vh */
+height: fit-content;
 }
 
 header > h1 {
+
     color:rgb(255, 186, 0, 0.87);
     font-size: 7rem;
     text-align: center;
     margin-top: 0;
 }
 
-.heronav{
+h1 {
+    display: flex;
     width: 100%;
+}
+
+.title {
+    width: 100%;
+}
+
+.heronav{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .heronav > a {
 display: flex;
 background-color: black;
+color: yellow;
 }
 
 .heronav > ul{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 33.3333%;
 }
 .heronav > ul > li{
     width: 33.33%;
     height: 5vh;
+
 }
 
 main {

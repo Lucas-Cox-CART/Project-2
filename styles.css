@@ -43,10 +43,9 @@ h1 {
     
 }
 
-.heronav > a {
-display: flex;
+.heronav a {
 background-color: black;
-color: yellow;
+color: rgb(255, 186, 0, 0.87);
 }
 
 .heronav > ul{
@@ -63,14 +62,32 @@ color: yellow;
 
 main {
     margin: 0;
-    padding-left: 10vw;
-    padding-right: 10vw;
     background-color: rgb(97, 97, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .title{
     width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    color: black;
+    background-color: rgb(255, 186, 0);
+    margin-bottom: 10vh;
+}
+
+.hero{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/HeroImage1.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .Heroimg {
@@ -78,6 +95,14 @@ main {
    background-repeat: no-repeat;
    margin: 0%;
    padding: 0;
+}
+
+.heroText{
+    color: rgb(255, 186, 0, 0.87);
+    font-size: 50px;
+    padding: 30px;
+    background-color: black;
+    border-radius: 20px;
 }
 
 .maxheight {
@@ -89,16 +114,37 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 40vh;
+    height: fit-content;
     margin-bottom: 10vh;
-    
+    padding: 40px;
+    align-items: center;
+    line-height: 230%;
 }
-
-
 
 .c2{
     flex-direction: row-reverse;
+    background-image: url(images/YellowJournalism.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.c3{
+    flex-direction: row-reverse;
+    background-image: url(images/NewspaperStand.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c4{
+    flex-direction: row-reverse;
+    background-image: url(images/Dictionary.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .text{
     width: 40%;
     background-color: rgb(255, 186, 0, 0.87);
@@ -111,6 +157,22 @@ main {
 
 .cont2{
     padding: 20px;
+    height: fit-content;
+    width: 40%;
+    background-color: rgb(255, 186, 0, 0.87);
+    border: 1px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+.cont3{
+    padding: 20px;
+    height: fit-content;
+    width: 40%;
+    background-color: rgb(255, 186, 0, 0.87);
+    border: 1px;
+    border-radius: 20px;
+    font-size: 23px;
 }
 
 
@@ -132,6 +194,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 23px;
 }
 
 .button{
@@ -146,11 +209,29 @@ main {
 
 footer{
     display: flex;
+    background-color: black;
+
+}
+footer a{
+    color: rgb(255, 186, 0);
+    
 }
 
 .page-link{
     width: 50%;
+    height: 100%;
 }
+/*
+.footerNav{
+    height: 100%;
+}
+
+.footerNav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}*/
 
 .ref{
     width: 25%;

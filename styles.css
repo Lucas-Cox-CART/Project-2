@@ -240,3 +240,69 @@ footer a{
 .contact{
     width: 25%;
 }
+
+.headerDiv {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    color: black;
+    background-color: rgb(255, 186, 0);
+    margin-bottom: 30px;
+}
+
+.examplesheader1 {
+    background-color: rgb(255, 186, 0);
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+.maineOnSpain {
+background-color: rgb(255, 186, 0);
+border: 1px;
+font-size: 23px;
+display: flex;
+padding: 20px;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.maineOnSpain img {
+    width: 30%;
+}
+
+body {
+    background-color: black;
+}
+
+.examplesheader2 {
+    background-color: rgb(255, 186, 0);
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.ebola {
+    background-color: rgb(255, 186, 0);
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.baby {
+    background-color: rgb(255, 186, 0);
+border: 1px;
+font-size: 23px;
+display: flex;
+padding: 20px;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.examplesheader3 {
+    background-color: rgb(255, 186, 0);
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}

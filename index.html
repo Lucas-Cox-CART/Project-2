@@ -8,21 +8,19 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Diplomata+SC&family=Goblin+One&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Diplomata+SC&family=Goblin+One&display=swap" rel="stylesheet">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Diplomata+SC&family=Goblin+One&display=swap'); 
+    </style>
 </head>
-
-
 <body>
-    
-
-    <!--nav bar is about 25% height-->
     <header>
         <h1>Yellow Journalism</h1> 
-        <nav class ="heronav">
+        <nav class="heronav">
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a class="active" href="Examples.html">Examples</a></li>
-                <li><a class="active" href="Dictionary.html">Dictionary</a></li>
+                <li><a class="notactive" href="examples.html">Examples</a></li>
+                <li><a class="notactive" href="dictionary.html">Dictionary</a></li>
             </ul>
         </nav>
         <section class="hero">
@@ -31,10 +29,11 @@
             </div>
         </section>
     </header>
-    <main class="ContentCenter">
+    <main>
         <section class="title">
             <h2>What is Yellow Journalism</h2>
         </section>
+        <div class="divider"></div>
         <section class="content c2">
             <article class="cont2">
                     <p>
@@ -43,43 +42,43 @@
                         <p>Newspaper companies and journalists who used Yellow Journalism used oversized pictures and fonts, they would dramatize front-page stories to sway interest of buyers, use third-party or anonymous sources, self-promote, and abuse hyperbole.</p>
                     </p>
             </article>
-            <div class="img">
-            </div>
+            <div class="img"></div>
         </section>
+        <div class="divider"></div>
         <section class="content c3">
             <article class="text cont3">
                     <p>Originally, Yellow Journalism didn't have any connections to journalism, but was derived from a popular cartoon about life called Hogan's Alley. The comic's most popular character would come to have the moniker Yellow Kid. Two newspaper publishers would go into a bidding war over the cartoonist, and this battle coined the term Yellow Journalism. It was first used by the two publishers in a profit-driven frenzy to promote US involvement in Cuba at the time. This would eventually culminate in the Spanish-American War.</p>
                     </p>
             </article>
-            <div class="img">
-                
-            </div>
+            <div class="img"></div>
         </section>
-
+        <div class="divider"></div>
         <section class="options content c4">
             <div class="bwrap">
-                <a class="button"href="#">Observe some examples of Yellow Journalism.</a>
+                <a class="button"href="examples.html">Observe some examples of Yellow Journalism.</a>
             </div>
             <div class="bwrap">
-            <a class="button"href="#">Learn to protect yourself from Yellow Journalism.</a>
+            <a class="button"href="dictionary.html">Learn to protect yourself from Yellow Journalism.</a>
             </div>
         </section>
-
-
     </main>
 
     <footer>
+
         <section class="page-link">
             <nav class="footerNav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="Examples.html">Examples</a></li>
-                    <li><a href="Dictionary.html">Dictionary</a></li>
+                    <li><a href="examples.html">Examples</a></li>
+                    <li><a href="dictionary.html">Dictionary</a></li>
                 </ul>
             </nav>
         </section>
+
         <section class="ref"> 
-            <h4>References</h4>
+            <div class="reffoothead">
+                <h4>References</h4>
+            </div>
             <ul>
                 <li><a href="#">DALLE-2</a></li>
                 <li><a href="#">Pexels</a></li>
@@ -92,8 +91,11 @@
                 <li><a href="#">CBC News</a></li>
             </ul>
         </section>
+
         <section class="contact">
-            <h5>CART Contact Information:</h5>
+            <div class="reffoothead">
+                <h5>CART Contact Information</h5>
+            </div>
             <address>
                 2555 Clovis Avenue<br>
                 Clovis, CA 93612
@@ -104,13 +106,9 @@
                 Email: <a href="mailto:info@cart.org">info@cart.org</a><br>
                 Email: <a href="mailto:lucas.cox@student.cart.org">lucas.cox@student.cart.org</a>
             </p>
-
-
-
         </section>
+
     </footer>
 </body>
-
-
 <!-- With Love -- Mr. Fast -->
 </html>

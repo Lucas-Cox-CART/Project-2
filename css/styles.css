@@ -2,27 +2,36 @@
     text-decoration: none;
     list-style: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 body {
     margin: 0;
+    background-color: black;
 }
 
+main {
+    margin: 0;
+    background-color: rgb(0, 238, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 header {
-display: flex;
-justify-content: center;
-flex-direction: column;
-background-color: black;
-/* height: 20vh */
-height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: fit-content;
 }
 
 h1 {
     display: flex;
     width: 100%;
     color:rgb(255, 186, 0, 0.87);
-    font-size: 6.25rem;
+    font-size: 5rem;
     text-align: center;
     justify-content: center;
     margin-top: 0;
@@ -59,15 +68,6 @@ h1 {
     height: 10vh;
 }
 
-main {
-    margin: 0;
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 .title{
     width:100%;
     height: 25vh;
@@ -76,6 +76,7 @@ main {
     align-items: center;
     font-size: 37px;
     color: black;
+    border-top: solid 2px black;
     background-color: rgb(255, 186, 0);
     font-family: 'Goblin One', cursive;
 }
@@ -85,7 +86,31 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/HeroImage1.png);
+    background-image: url(../images/HeroImage1.png);
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero2 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/HeroImage2.png);
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero3 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/HeroImage3.png);
     max-width: 100%;
     width: 100%;
     background-size: cover;
@@ -93,7 +118,7 @@ main {
 }
 
 .Heroimg {
-   background-image: url("/images/YellowJournalism.PNG");
+   background-image: url("../images/YellowJournalism.PNG");
    background-repeat: no-repeat;
    margin: 0%;
    padding: 0;
@@ -105,6 +130,7 @@ main {
     padding: 30px;
     background-color: black;
     border-radius: 20px;
+    font-family: 'Diplomata SC', cursive;
 }
 
 .maxheight {
@@ -123,9 +149,34 @@ main {
     line-height: 230%;
 }
 
+.cont2{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 40%;
+    padding: 30px;
+    background-color: rgb(255, 186, 0, 0.87);
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 23px;
+    font-family: 'Goblin One', cursive;
+    align-items: center;
+}
+
+.cont3{
+    padding: 20px;
+    height: fit-content;
+    width: 40%;
+    background-color: rgb(255, 186, 0, 0.87);
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 23px;
+    font-family: 'Goblin One', cursive;
+}
+
 .c2{
     flex-direction: row-reverse;
-    background-image: url(images/YellowJournalism.PNG);
+    background-image: url(../images/YellowJournalism.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,7 +184,7 @@ main {
 
 .c3{
     flex-direction: row;
-    background-image: url(images/NewspaperStand.png);
+    background-image: url(../images/NewspaperStand.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,7 +192,7 @@ main {
 
 .c4{
     flex-direction: row-reverse;
-    background-image: url(images/Dictionary.png);
+    background-image: url(../images/Dictionary.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,32 +210,10 @@ main {
     height: 90vh;
 }
 
-.cont2{
-    padding: 20px;
-    height: fit-content;
-    width: 40%;
-    background-color: rgb(255, 186, 0, 0.87);
-    border: 1px;
-    border-radius: 20px;
-    font-size: 23px;
-    font-family: 'Goblin One', cursive;
-}
-
-.cont3{
-    padding: 20px;
-    height: fit-content;
-    width: 40%;
-    background-color: rgb(255, 186, 0, 0.87);
-    border: 1px;
-    border-radius: 20px;
-    font-size: 23px;
-    font-family: 'Goblin One', cursive;
-}
-
 .options{
     display: flex;
     flex-wrap: wrap;
-    height: 40vh;
+    height: 50vh;
 }
 
 .bwrap{
@@ -209,21 +238,21 @@ main {
 
 footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     background-color: black;
-    height: 30vh;
+    height: 35vh;
     line-height: 150%;
+    margin-bottom: 20px;
 }
 
 footer a{
     color: rgb(255, 186, 0);
-    
 }
 
 
 .footerNav{
     height: 100%;
+    font-size: 1.7rem;
 }
 
 .footerNav ul{
@@ -231,10 +260,11 @@ footer a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'Goblin One', cursive;
 }
 
 .page-link{
-    width: 50%;
+    width: 33.33%;
     height: 100%;
 }
 
@@ -249,6 +279,7 @@ footer a{
 .reffoothead {
     height: 25%;   
     color: rgb(255, 186, 0);
+    padding-top: 20px;
     font-family: 'Goblin One', cursive;
 }
 
@@ -257,47 +288,16 @@ footer a{
     color: rgb(255, 186, 0);
 }
 
-.headerDiv {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 37px;
-    color: black;
-    background-color: rgb(255, 186, 0);
-    margin-bottom: 30px;
-}
-
-.examplesheader1 {
-    background-color: rgb(255, 186, 0);
-    display: flex;
-    font-size: 30px;
-    padding: 10px;
-}
-.maineOnSpain {
-    background-color: rgb(255, 186, 0);
-    border: 1px;
-    font-size: 23px;
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.maineOnSpain img {
-    width: 30%;
-}
-
-body {
-    background-color: black;
-}
-
-.examplesheader2 {
+.examplesheader {
     background-color: rgb(255, 186, 0);
     display: flex;
     font-size: 30px;
     padding: 10px;
     justify-content: center;
+}
+
+.examplesFormat {
+    height: fit-content;
 }
 
 .ebola {
@@ -316,15 +316,57 @@ body {
     margin-bottom: 30px;
 }
 
-.examplesheader3 {
-    background-color: rgb(255, 186, 0);
-    display: flex;
-    font-size: 30px;
-    padding: 10px;
-}
-
 .divider {
     background-color: black;
     height: 3vh;
     width: 100%;
 }
+
+.page2header {
+    font-size: 1.67rem;
+    font-family: 'Goblin One', cursive;
+    line-height: 200%;
+}
+
+.examplesPageSection {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(255, 186, 0);
+    height: 35vh;
+    width: 100%;
+}
+
+.examplesPageSection p {
+    font-size: 1.5rem;
+    font-family: 'Cormorant', serif;
+}
+
+.page2majority {
+    width: 74vw;
+    max-width: 74%;
+}
+
+.imgctrl {
+    border: solid 2px black;
+    border-radius: 20px;
+    height: 100%;
+    width: 24vw;
+    max-width: 24%; 
+}
+
+/* .maineOnSpain {
+    background-color: rgb(255, 186, 0);
+    border: 1px;
+    font-size: 23px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.maineOnSpain img {
+    width: 25vw;
+    max-width: 25%;
+} */

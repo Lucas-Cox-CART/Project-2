@@ -4,50 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examples of Yellow Journalism</title>
+    <title>Examples</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Diplomata+SC&family=Goblin+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Diplomata+SC&family=Goblin+One&display=swap'); 
+    </style>
 </head>
 <body>
-     <header>
+    <header>
         <h1>Yellow Journalism</h1> 
-        <nav class ="heronav">
+        <nav class="heronav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a class="notactive" href="index.html">Home</a></li>
                 <li><a class="active" href="examples.html">Examples</a></li>
-                <li><a href="dictionary.html">Dictionary</a></li>
+                <li><a class="notactive" href="dictionary.html">Dictionary</a></li>
             </ul>
         </nav>
-        <section class="hero">
+        <section class="hero2">
             <div class="heroText">
                 <h2>Examples</h2>
             </div>
         </section>
     </header>
 
-
-    <section class="content1">
-        <div class="headerDiv">
+    <main>
+        <div class="title">
             <h3>Examples of Yellow Journalism</h3>
         </div>
-        <div class="examplesheader1">Spanish American War</div>
-        <div class="maineOnSpain">
-            <p>The very first time Yellow Journalism was used was to maliciously push for a war with Spain over events in Cuba, notably the mysterious explosion of the USS Maine that killed two-hundred sixty soldiers.</p>
-            <img src="images/Blame the Maine on Spain.png" alt="A newspaper article about the USS Maine, supposedly being destroyed by Spain">
+        <div class="divider"></div>
+        <section class="examplesPageSection">
+            <section class="page2majority">
+                <div class="page2header">
+                    <h4>Spanish American War</h4>
+                </div>
+                <p>The very first time Yellow Journalism was used was to maliciously push for a war with Spain over events in Cuba, notably the mysterious explosion of the USS Maine that killed two-hundred sixty soldiers.</p>
+            </section>
+            <img class="imgctrl" src="images/maine.png" alt="A newspaper article about the USS Maine">
+        </section>
+        <div class="divider"></div>
+        <section class="examplesPageSection">
+            <img class="imgctrl" src="images/EbolaIsComing.jpg" alt="Graffitti that says 'Ebola is Coming'">
+            <section class="page2majority">
+                <div class="page2header">
+                    <h4>Ebola Is Coming</h4>
+                </div>
+                <p>In 2014, there was an outbreak of Ebola in Western Africa, Bloomberg Businessweek's cover showed in giant font, “Ebola is Coming” in an appearance similar to blood. This overexaggerated what was a serious threat and could have caused panic to some readers.</p>
+            </section>
+        </section>
+        <div class="divider"></div>
+        <section class="examplesPageSection">
+            <section class="page2majority">
+                <div class="page2header">
+                    <h4>Baby Snatched By Eagle</h4>
+                </div>
+                <p>This shocking headline grabbed many viewers' attention, but the accompanying video was validated as a fake.</p>
+            </section>
+            <img class="imgctrl" src="images/EagleChild.jpg" alt="A baby being snatched by an eagle">
+        </section>
+    </main>
+
+
+    <!-- <section>
+        <div class="title">
+            <h3>Examples of Yellow Journalism</h3>
         </div>
-        <div class="examplesheader2">Ebola is Coming</div>
-        <div class="ebola">
-            <img src="images/EbolaIsComing.jpg" alt="Graffitti that says 'Ebola is Coming'">
-            <p>In 2014, there was an outbreak of Ebola in Western Africa, Bloomberg Businessweek's cover showed in giant font, “Ebola is Coming” in an appearance similar to blood. This overexaggerated what was a serious threat and could have caused panic to some readers.</p>
-        </div>
-        <div class="examplesheader3">Baby Snatched by Eagle</div>
+
+        <div class="divider"></div>
+
+        <section class="examplesFormat">
+            <div class="examplesheader">Spanish American War</div>
+            <div class="maineOnSpain">
+                <p>The very first time Yellow Journalism was used was to maliciously push for a war with Spain over events in Cuba, notably the mysterious explosion of the USS Maine that killed two-hundred sixty soldiers.</p>
+                <img src="images/Blame the Maine on Spain.png" alt="A newspaper article about the USS Maine, supposedly being destroyed by Spain">
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <div class="examplesheader">Ebola is Coming</div>
+            <div class="ebola">
+                <img src="images/EbolaIsComing.jpg" alt="Graffitti that says 'Ebola is Coming'">
+                <p>In 2014, there was an outbreak of Ebola in Western Africa, Bloomberg Businessweek's cover showed in giant font, “Ebola is Coming” in an appearance similar to blood. This overexaggerated what was a serious threat and could have caused panic to some readers.</p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <div class="examplesheader">Baby Snatched by Eagle</div>
         <div class="baby">
             <p>This shocking headline grabbed many viewers' attention, but the accompanying video was validated as a fake.</p>
             <img src="images/EagleChild.jpg" alt="A baby being snatched by an eagle">
         </div>
-    </section>
+        </section>
+
+    </section> -->
 
 
     <footer>
@@ -61,7 +116,9 @@
             </nav>
         </section>
         <section class="ref"> 
-            <h4>References</h4>
+            <div class="reffoothead">
+                <h4>References</h4>
+            </div>
             <ul>
                 <li><a href="#">DALLE-2</a></li>
                 <li><a href="#">Pexels</a></li>
@@ -75,7 +132,9 @@
             </ul>
         </section>
         <section class="contact">
-            <h5>CART Contact Information:</h5>
+            <div class="reffoothead">
+                <h5>CART Contact Information</h5>
+            </div>
             <address>
                 2555 Clovis Avenue<br>
                 Clovis, CA 93612
@@ -86,11 +145,7 @@
                 Email: <a href="mailto:info@cart.org">info@cart.org</a><br>
                 Email: <a href="mailto:lucas.cox@student.cart.org">lucas.cox@student.cart.org</a>
             </p>
-
-
-
         </section>
     </footer>
-
 </body>
 </html>

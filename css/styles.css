@@ -31,11 +31,13 @@ h1 {
     display: flex;
     width: 100%;
     color:rgb(255, 186, 0, 0.87);
-    font-size: 5rem;
+    font-size: 4.75rem;
     text-align: center;
     justify-content: center;
     margin-top: 0;
+    padding: 5px;
     font-family: 'Diplomata SC', cursive;
+    box-sizing: border-box;
 }
 
 .heronav a {
@@ -129,7 +131,7 @@ h1 {
     font-size: 50px;
     padding: 30px;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: 'Diplomata SC', cursive;
 }
 
@@ -157,7 +159,7 @@ h1 {
     padding: 30px;
     background-color: rgb(255, 186, 0, 0.87);
     border: solid 2px black;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 23px;
     font-family: 'Goblin One', cursive;
     align-items: center;
@@ -169,7 +171,7 @@ h1 {
     width: 40%;
     background-color: rgb(255, 186, 0, 0.87);
     border: solid 2px black;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 23px;
     font-family: 'Goblin One', cursive;
 }
@@ -202,7 +204,7 @@ h1 {
     width: 40%;
     background-color: rgb(255, 186, 0, 0.87);
     border: 1px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .img{
@@ -231,7 +233,7 @@ h1 {
     color: rgb(255, 186, 0, 0.87);
     padding: 2%;
     border: 1px;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 46vw;
     font-family: 'Goblin One', cursive;
 }
@@ -330,27 +332,35 @@ footer a{
 
 .examplesPageSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
     padding: 10px;
     background-color: rgb(255, 186, 0);
-    height: 35vh;
+    height: 45vh;
     width: 100%;
 }
 
-.examplesPageSection p {
-    font-size: 1.5rem;
-    font-family: 'Cormorant', serif;
+.page2majority {
+    display: flex;
+    flex-direction: column;
+    width: 74vw;
+    max-width: 74%;
+    padding: 20px;
 }
 
 .page2majority {
-    width: 74vw;
-    max-width: 74%;
+    font-size: 1.67rem;
+    font-family: 'Cormorant', serif;
+    line-height: 210%;
+}
+
+.page2content {
+    justify-content: center;
 }
 
 .imgctrl {
     border: solid 2px black;
-    border-radius: 20px;
+    border-radius: 30px;
     height: 100%;
     width: 24vw;
     max-width: 24%; 

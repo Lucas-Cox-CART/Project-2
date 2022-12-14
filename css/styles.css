@@ -431,7 +431,7 @@ footer a{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1110px) {
     body {
         width: 100%;
         box-sizing: border-box;
